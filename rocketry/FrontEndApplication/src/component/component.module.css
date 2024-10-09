@@ -1,0 +1,110 @@
+.SpatialData {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Graphes {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.GrapheContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+.Progress {
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.GpsPosition {
+  grid-column: 2;
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: #fcfcfc;
+  width: 300px;
+  padding: 3px;
+  margin: 3px;
+  height: 35px;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgb(4, 1, 68) 0%,
+    rgb(59, 82, 85) 100%
+  );
+  border-radius: 5px;
+  font-size: 25px;
+}
+/*this part is added for the custom dispaly field*/
+.displayFieldContainer {
+  position: relative;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: transparent;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  margin: 10px 0;
+}
+
+.displayFieldLabel {
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background-color: transparent;
+  padding: 0 5px;
+  font-size: 14px;
+  color: white;
+  background-color: #000;
+}
+
+.displayFieldValue {
+  font-size: 16px;
+  color: white;
+  padding-top: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+/*the end  of the costum part */
+
+
+
+
+
+/**************************************/
+.Information{
+  grid-column: 1/span 2;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.container{
+  padding: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 35px;
+}
